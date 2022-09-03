@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <h2><b><u>1.Payment Form</u></b></h2>
+    <h2>Fill Your Information</h2>
+    <form>
+    <p><label>
+            Name:*<input type="text" name="fname" placeholder="first name" required>
+            <input type="text" name="lname" placeholder="last name" required></label>
+    </p>
+    <p><label>
+            Email:* <input type="email" name="myemail" placeholder="abc@gmail.com" required>
+        </label>
+    </p>
+<p>
+    <label>
+        Company Name:*<input type="text" name="cname" placeholder="company name" required>
+    </label>
+</p>
+<h2>Billing Address</h2>
+<label>
+    Street:*<br><textarea required ></textarea>
+</label>
+<p> <label>Country:*
+    <select required>
+        <option value="">select your country</option>
+        <option value="Japan">Japan</option>
+        <option value="India">India</option>
+        <option value="pakistan">pakistan</option>
+        <option value="usa">usa</option>
+        <option value="China">China</option>
+    </select></label>
+    <label>
+    State:*
+    <select>
+<option value="">select your state</option>
+<option value="Bihar">Bihar</option>
+<option value="mp">mp</option>
+<option value="cg">cg</option>
+<option value="oddisha">oddisha</option>
+<option value="punjab">punjab</option>
+    </select>
+</label>
+</p>
+<p>
+    <label>
+        Zip code:*<input type="number" name="myzip" placeholder="000111">
+    </label>
+</p>
+<h2><b>Your Payment Information</b></h2>
+
+<p>
+    <label>pAYMENT mETHOD
+        <select required>
+           <option value="">select your card type</option>
+           <option value="Visa">Visa</option>
+           <option value="Mastercard">Mastercard</option>
+           <option value="Rupay">Rupay</option>
+           <option value="Upi">Upi</option>
+           <option value="Union bank">Union bank</option>
+        </select>
+    </label>
+</p>
+<p>
+    <label>
+        Enter your CARD number:*<input type="number" name="card no" placeholder="001-005-005" required>
+    </label>
+</p>
+<p>
+    <label>
+        Cvv:*<input type="password" name="cvv" required>
+    </label>
+</p>
+<input type="submit" value="submit Now">
+</form>
+</body>
+
+</html>
